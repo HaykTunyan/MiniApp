@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MiniAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MiniAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-MiniApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MiniApp.a */; };
+		04A23034EDC11EF0CFD90772 /* libPods-MiniApp-MiniAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFB410AF5839FC9767011CB /* libPods-MiniApp-MiniAppTests.a */; };
+		078A85F97A6546F981DE7691 /* GothamMedium_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FCC3B52642A4142841D6EFA /* GothamMedium_1.ttf */; };
+		0B825DE3C86A4BC492701B02 /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68DEDA7025444B09A0E9751A /* GothamLight.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-MiniApp-MiniAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MiniApp-MiniAppTests.a */; };
+		1E86B5A5A8304A9AA7B95188 /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323568C77CA74EB69E976F92 /* GothamLightItalic.ttf */; };
+		3ECE0600668002471543C4DA /* libPods-MiniApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F38C85CBACCFE5CDD57209C0 /* libPods-MiniApp.a */; };
+		3FD6C3059C874A70910B3D95 /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6763E74591224312AB9B502F /* GothamBoldItalic.ttf */; };
+		78FA80470C8E4E3589E14AAB /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D674CE5AFF64CCEB76D3837 /* GothamBook.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B3E4874D16EF4E6F96A0E449 /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A6E9A2471474021A2D3A896 /* GothamMediumItalic.ttf */; };
+		C9344365E5804C3C8EED2365 /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E61FFDEC8F94EA9A4083522 /* GothamBold.ttf */; };
+		E5F2A9E31F824F97B02D7BC0 /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA890FE2172D420AAC3F504F /* GothamMedium.ttf */; };
+		E7C8E898C353486C9371C4F5 /* GothamBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 022D273C525145829B79E392 /* GothamBookItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +39,29 @@
 		00E356EE1AD99517003FC87E /* MiniAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MiniAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniAppTests.m; sourceTree = "<group>"; };
+		022D273C525145829B79E392 /* GothamBookItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBookItalic.ttf; path = ../assets/fonts/GothamBookItalic.ttf; sourceTree = "<group>"; };
+		0AFB410AF5839FC9767011CB /* libPods-MiniApp-MiniAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniApp-MiniAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* MiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MiniApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MiniApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MiniApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MiniApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MiniApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MiniApp-MiniAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniApp-MiniAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-MiniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp/Pods-MiniApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-MiniApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp.release.xcconfig"; path = "Target Support Files/Pods-MiniApp/Pods-MiniApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-MiniApp-MiniAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-MiniAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-MiniApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D674CE5AFF64CCEB76D3837 /* GothamBook.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBook.ttf; path = ../assets/fonts/GothamBook.ttf; sourceTree = "<group>"; };
+		1FCC3B52642A4142841D6EFA /* GothamMedium_1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamMedium_1.ttf; path = ../assets/fonts/GothamMedium_1.ttf; sourceTree = "<group>"; };
+		323568C77CA74EB69E976F92 /* GothamLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamLightItalic.ttf; path = ../assets/fonts/GothamLightItalic.ttf; sourceTree = "<group>"; };
+		4B9D0CB75719989270526B53 /* Pods-MiniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp/Pods-MiniApp.debug.xcconfig"; sourceTree = "<group>"; };
+		63C9AF5A48138A37BEA1B544 /* Pods-MiniApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp.release.xcconfig"; path = "Target Support Files/Pods-MiniApp/Pods-MiniApp.release.xcconfig"; sourceTree = "<group>"; };
+		6763E74591224312AB9B502F /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBoldItalic.ttf; path = ../assets/fonts/GothamBoldItalic.ttf; sourceTree = "<group>"; };
+		68DEDA7025444B09A0E9751A /* GothamLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamLight.ttf; path = ../assets/fonts/GothamLight.ttf; sourceTree = "<group>"; };
+		6E61FFDEC8F94EA9A4083522 /* GothamBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBold.ttf; path = ../assets/fonts/GothamBold.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MiniApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-MiniApp-MiniAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-MiniAppTests.release.xcconfig"; path = "Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A6E9A2471474021A2D3A896 /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamMediumItalic.ttf; path = ../assets/fonts/GothamMediumItalic.ttf; sourceTree = "<group>"; };
+		9ECA397B4E51D0EB266FAC4A /* Pods-MiniApp-MiniAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-MiniAppTests.release.xcconfig"; path = "Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA890FE2172D420AAC3F504F /* GothamMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamMedium.ttf; path = ../assets/fonts/GothamMedium.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F38C85CBACCFE5CDD57209C0 /* libPods-MiniApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE951061B630A8636B916A8D /* Pods-MiniApp-MiniAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-MiniAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-MiniApp-MiniAppTests.a in Frameworks */,
+				04A23034EDC11EF0CFD90772 /* libPods-MiniApp-MiniAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-MiniApp.a in Frameworks */,
+				3ECE0600668002471543C4DA /* libPods-MiniApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +118,27 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-MiniApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-MiniApp-MiniAppTests.a */,
+				F38C85CBACCFE5CDD57209C0 /* libPods-MiniApp.a */,
+				0AFB410AF5839FC9767011CB /* libPods-MiniApp-MiniAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FD0987E7DB24E41948859BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E61FFDEC8F94EA9A4083522 /* GothamBold.ttf */,
+				6763E74591224312AB9B502F /* GothamBoldItalic.ttf */,
+				1D674CE5AFF64CCEB76D3837 /* GothamBook.ttf */,
+				022D273C525145829B79E392 /* GothamBookItalic.ttf */,
+				68DEDA7025444B09A0E9751A /* GothamLight.ttf */,
+				323568C77CA74EB69E976F92 /* GothamLightItalic.ttf */,
+				DA890FE2172D420AAC3F504F /* GothamMedium.ttf */,
+				8A6E9A2471474021A2D3A896 /* GothamMediumItalic.ttf */,
+				1FCC3B52642A4142841D6EFA /* GothamMedium_1.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -122,6 +157,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				3FD0987E7DB24E41948859BF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,10 +176,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-MiniApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-MiniApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-MiniApp-MiniAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-MiniApp-MiniAppTests.release.xcconfig */,
+				4B9D0CB75719989270526B53 /* Pods-MiniApp.debug.xcconfig */,
+				63C9AF5A48138A37BEA1B544 /* Pods-MiniApp.release.xcconfig */,
+				FE951061B630A8636B916A8D /* Pods-MiniApp-MiniAppTests.debug.xcconfig */,
+				9ECA397B4E51D0EB266FAC4A /* Pods-MiniApp-MiniAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MiniAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				F7BA986C3DA15443622C36EA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				FDB99492C976612A333092D7 /* [CP] Embed Pods Frameworks */,
+				216284A9C39A1F1D940D0649 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +212,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MiniApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				F0EB5950DC0C27096F20AE55 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				61F670F8805D3F44542ABF0B /* [CP] Embed Pods Frameworks */,
+				3120A8CF06952FE2937F9C78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +279,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C9344365E5804C3C8EED2365 /* GothamBold.ttf in Resources */,
+				3FD6C3059C874A70910B3D95 /* GothamBoldItalic.ttf in Resources */,
+				78FA80470C8E4E3589E14AAB /* GothamBook.ttf in Resources */,
+				E7C8E898C353486C9371C4F5 /* GothamBookItalic.ttf in Resources */,
+				0B825DE3C86A4BC492701B02 /* GothamLight.ttf in Resources */,
+				1E86B5A5A8304A9AA7B95188 /* GothamLightItalic.ttf in Resources */,
+				E5F2A9E31F824F97B02D7BC0 /* GothamMedium.ttf in Resources */,
+				B3E4874D16EF4E6F96A0E449 /* GothamMediumItalic.ttf in Resources */,
+				078A85F97A6546F981DE7691 /* GothamMedium_1.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +310,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		216284A9C39A1F1D940D0649 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3120A8CF06952FE2937F9C78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp/Pods-MiniApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp/Pods-MiniApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp/Pods-MiniApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F670F8805D3F44542ABF0B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,29 +361,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp/Pods-MiniApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MiniApp-MiniAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		F0EB5950DC0C27096F20AE55 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,7 +383,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		F7BA986C3DA15443622C36EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniApp-MiniAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB99492C976612A333092D7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,40 +420,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MiniApp/Pods-MiniApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MiniApp/Pods-MiniApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp/Pods-MiniApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp-MiniAppTests/Pods-MiniApp-MiniAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +455,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-MiniApp-MiniAppTests.debug.xcconfig */;
+			baseConfigurationReference = FE951061B630A8636B916A8D /* Pods-MiniApp-MiniAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +482,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-MiniApp-MiniAppTests.release.xcconfig */;
+			baseConfigurationReference = 9ECA397B4E51D0EB266FAC4A /* Pods-MiniApp-MiniAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +506,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-MiniApp.debug.xcconfig */;
+			baseConfigurationReference = 4B9D0CB75719989270526B53 /* Pods-MiniApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -488,7 +533,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-MiniApp.release.xcconfig */;
+			baseConfigurationReference = 63C9AF5A48138A37BEA1B544 /* Pods-MiniApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
